@@ -1,6 +1,8 @@
 // declare class
 class Shape {
-  color = "blue";
+  constructor() {
+    this.color = "blue";
+  }
   drawShape() {}
   calculateArea() {}
 }
