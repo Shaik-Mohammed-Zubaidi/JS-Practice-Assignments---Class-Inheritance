@@ -1,7 +1,8 @@
 // declare class
-export default class Shape {
+class Shape {
   color = "blue";
   drawShape() {}
   calculateArea() {}
 }
 // export class using module.exports
+export default Shape;

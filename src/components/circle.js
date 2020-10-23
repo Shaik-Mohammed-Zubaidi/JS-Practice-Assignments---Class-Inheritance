@@ -2,7 +2,7 @@
 import Shape from "./shape";
 // declare class
 
-export default class Circle extends Shape {
+class Circle extends Shape {
   // constructor(){
   //   super();
   // }
@@ -10,3 +10,4 @@ export default class Circle extends Shape {
 }
 
 // export class using module.exports
+export default Circle;
